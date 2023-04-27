@@ -4,6 +4,9 @@ export default {
     "./index.html",
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
+  screen:{
+    'sm': {'min': '320px', 'max': '767px'},
+  },
   theme: {
     extend: {},
     fontFamily:{
